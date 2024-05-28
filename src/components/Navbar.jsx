@@ -4,8 +4,9 @@ export default function Navbar() {
   const currentPage = useLocation().pathname;
 
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <div className="Tabs">
+      <ul className="nav nav-tabs">
+        <li className="nav-item">
         <Link
           to="/"
           className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
@@ -38,5 +39,6 @@ export default function Navbar() {
         </Link>
       </li>
     </ul>
+    </div>
   );
 }
