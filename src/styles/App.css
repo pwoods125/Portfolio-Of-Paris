@@ -1,0 +1,73 @@
+:root {
+    --hollywood: #faebd7;
+}
+
+body {
+    background-color: black;
+    font-family: "Broadway", "Harrington", "Algerian", "Bauhaus 93", "Blackadder ITC", "Monotype Corsiva", "Old English Text MT";
+    color: var(--hollywood);
+}
+
+header, .footer {
+    border-style: solid;
+    border-color: var(--hollywood);
+    padding: 20px;
+    margin: 25px;
+    text-align: center;
+}
+
+.Tabs, .nav-item {
+    list-style:none;
+    margin: 25px;
+    margin-left: 150px;
+    margin-right: 130px;
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1420px) {
+    header {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header {
+       border-style: none;
+    };
+}
+
+a {
+    color: var(--hollywood);
+}
+
+.Portfolio, .AboutMe, .Contact, .resume {
+    border-style: solid;
+    border-color: var(--hollywood);
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    flex-direction: row;right:auto;
+    text-wrap: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+@media screen and (max-width: 1480px) {
+    .Portfolio, .AboutMe, .Contact {
+        border-style: none;
+    }
+}
+
+p {
+    font-family: "Monotype Corsiva","Harrington", "Algerian", "Bauhaus 93", "Blackadder ITC";
+    font-size: large;
+}
+

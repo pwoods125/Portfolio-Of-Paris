@@ -1,5 +1,6 @@
 export default function Project({ projects }) {
     return (
+      <div>
         <ul className="list-group">
         {projects.map((project) => (
           <li className="list-group-item" key={project.id}>
@@ -13,8 +14,9 @@ export default function Project({ projects }) {
             <br></br>
             <br></br>
           </li>
-        ))}
-      </ul>
+          ))}
+        </ul>
+      </div>
     )
 }
 

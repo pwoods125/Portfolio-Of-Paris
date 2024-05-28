@@ -1,4 +1,4 @@
-import Project from "../components/project";
+import Project from "../components/Project.jsx";
 import ShareAbytes from "../assets/images/tech-blog.png";
 import UGP from "../assets/images/UGP.png";
 import JotItNow from "../assets/images/Jot-it-NOW.png";
@@ -53,7 +53,7 @@ const projects = [
   
 export default function Portfolio() {
 return (
-    <div>
+    <div className="Portfolio">
       <h2 className="title">My Projects</h2>
       <Project projects={projects} />
     </div>

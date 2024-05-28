@@ -1,7 +1,7 @@
 import pwoodsDesk from "../assets/images/PWoods at desk B&W.png"
 export default function About() {
     return (
-      <div>
+      <div className="AboutMe">
         <img src={pwoodsDesk}></img>
         <h1>About Me</h1>
         <p>My name is Paris Woods, and I am a Temple University graduate with a Bachelors of Science in Public Health. After nearly 13 years in healthcare, I am currently expanding my knowledge within technology to pursue a career in full stack web development. I am very experienced with operating computers, computer applications, researching using various databases such as PubMed, and operating Microsoft Office (word, excel, publisher, and PowerPoint). Also, I have also developed skills with HTML, CSS, client and server side JavaScript, command-line applications, and deployment applications such as GitHub, and Heroku.</p>
