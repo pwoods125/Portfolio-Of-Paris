@@ -14,3 +14,4 @@ Depending on the width of the screen, the navigation menu will either follow the
 ![alt text](./src/assets/images/image-2.png);
 
 ### Link to Application
+https://parisportfolio.netlify.app/
